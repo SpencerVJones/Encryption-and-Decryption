@@ -1,7 +1,1 @@
-# Encryption-and-Decryption
-A GUI program that encrypts and decrypts a generated key
-
-Press new key first to generate a new key
-Type text in input field 
-Press encrypt  
-Copy encrypted text from output field and paste in input filed
+Developed a Java graphical user interface (GUI) application for encryption and decryption functionalities using Swing components. The application provides users with buttons to generate a new encryption key, encrypt text, decrypt text, and quit the program. The interface is designed with a clean and intuitive layout, featuring input and output text areas within scroll panes for enhanced usability. The encryption process involves shuffling a predefined list of characters to create a unique encryption key, which is then used to encrypt the user-input text. Similarly, decryption reverses the encryption process to restore the original text. The application offers a seamless user experience, allowing users to perform encryption and decryption operations efficiently.
