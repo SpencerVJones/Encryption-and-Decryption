@@ -1,10 +1,10 @@
 # Java Encryption and Decryption Program
 
 ## Description:
-This Java program provides a user-friendly interface for encrypting and decrypting text using a custom encryption algorithm. It features an intuitive graphical interface where users can generate encryption keys, input text, encrypt and decrypt messages, and exit the application. The program employs Swing, a Java GUI framework, to create a seamless user experience.
+### This Java program provides a user-friendly interface for encrypting and decrypting text using a custom encryption algorithm. It features an intuitive graphical interface where users can generate encryption keys, input text, encrypt and decrypt messages, and exit the application. The program employs Swing, a Java GUI framework, to create a seamless user experience.
 
 ## Key Features:
-**Intuitive Graphical Interface:** The program offers a visually appealing interface with text input and output areas, buttons for key generation, encryption, decryption, and quitting.
+### **Intuitive Graphical Interface:** The program offers a visually appealing interface with text input and output areas, buttons for key generation, encryption, decryption, and quitting.
 **Dynamic Key Generation:** Users can generate new encryption keys, ensuring the security of their encrypted messages.
 **Efficient Encryption and Decryption:** The program utilizes a custom encryption algorithm to securely encrypt and decrypt text.
 **Responsive Controls:** Button actions are responsive and provide real-time feedback to users.
