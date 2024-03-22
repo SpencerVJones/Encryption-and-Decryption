@@ -19,6 +19,8 @@ This Java program provides a user-friendly interface for encrypting and decrypti
 - **Java:** The core programming language used for developing the application, providing the foundational logic and structure for the encryption program.
 - **Swing API (Java GUI):** Swing is utilized for creating the graphical user interface (GUI) components such as buttons, text areas, labels, and panels, enabling the development of a user-friendly desktop application.
 - **JUnit:** The JUnit testing framework is employed for writing and executing unit tests to ensure the correctness and reliability of the application's functionalities and components.
+- **Map and ArrayList:** Java collections framework for storing and managing encryption and decryption mappings.
+- **AWT (Abstract Window Toolkit):** Handling events and implementing action listeners for GUI components.
 - **Integrated Development Environment (IDE):** Eclipse 
 
 ## Tests:
