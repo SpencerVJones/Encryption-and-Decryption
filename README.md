@@ -1,4 +1,8 @@
 # Java Encryption and Decryption Program
+  <div align="left">
+	
+![Repo Views](https://visitor-badge.laobi.icu/badge?page_id=SpencerVJones/Encryption-and-Decryption)
+</div>
 This Java program provides a user-friendly interface for encrypting and decrypting text using a custom encryption algorithm. It features an intuitive graphical interface where users can generate encryption keys, input text, encrypt and decrypt messages, and exit the application. The program employs Swing, a Java GUI framework, to create a seamless user experience.
 
 ## Key Features:
