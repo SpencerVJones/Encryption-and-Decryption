@@ -2,16 +2,16 @@
   <h2 align="center">Encryption &amp; Decryption</h2>
   <div align="left">
 
-![Repo Views](https://visitor-badge.laobi.icu/badge?page_id=makesspence/Encryption-and-Decryption)
+![Repo Views](https://visitor-badge.laobi.icu/badge?page_id=SpencerVJones/Encryption-and-Decryption)
 </div>
 
   <p align="center">
     A Java project with a modern Swing desktop app and a deploy-ready web API for encryption/decryption with multiple algorithms.
     <br />
     <br />
-    <a href="https://github.com/makesspence/Encryption-and-Decryption/issues">Report Bug</a>
+    <a href="https://github.com/SpencerVJones/Encryption-and-Decryption/issues">Report Bug</a>
     ·
-    <a href="https://github.com/makesspence/Encryption-and-Decryption/issues">Request Feature</a>
+    <a href="https://github.com/SpencerVJones/Encryption-and-Decryption/issues">Request Feature</a>
   </p>
 </div>
 
@@ -19,13 +19,13 @@
 <!-- PROJECT SHIELDS -->
 <div align="center">
 
-![License](https://img.shields.io/github/license/makesspence/Encryption-and-Decryption?style=for-the-badge)
-![Contributors](https://img.shields.io/github/contributors/makesspence/Encryption-and-Decryption?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/makesspence/Encryption-and-Decryption?style=for-the-badge)
-![Stargazers](https://img.shields.io/github/stars/makesspence/Encryption-and-Decryption?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/makesspence/Encryption-and-Decryption?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/makesspence/Encryption-and-Decryption?style=for-the-badge)
-![Repo Size](https://img.shields.io/github/repo-size/makesspence/Encryption-and-Decryption?style=for-the-badge)
+![License](https://img.shields.io/github/license/SpencerVJones/Encryption-and-Decryption?style=for-the-badge)
+![Contributors](https://img.shields.io/github/contributors/SpencerVJones/Encryption-and-Decryption?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/SpencerVJones/Encryption-and-Decryption?style=for-the-badge)
+![Stargazers](https://img.shields.io/github/stars/SpencerVJones/Encryption-and-Decryption?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/SpencerVJones/Encryption-and-Decryption?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/SpencerVJones/Encryption-and-Decryption?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/SpencerVJones/Encryption-and-Decryption?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/platform-Desktop-lightgrey.svg?style=for-the-badge)
 ![API](https://img.shields.io/badge/API-HTTP-0ea5e9.svg?style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-21-blue.svg?style=for-the-badge)
@@ -92,7 +92,7 @@ Users can:
 - ✅ Status feedback for success/error states
 
 ## Demo
-Coming Soon!
+🔗 **Live:** [https://encryption-api-4yib.onrender.com/](https://encryption-api-4yib.onrender.com/)
 
 ## Project Structure
 ```bash
@@ -223,7 +223,7 @@ mvn test
 ### Installation
 1. Clone the repo:
 ```bash
-git clone https://github.com/makesspence/Encryption-and-Decryption.git
+git clone https://github.com/SpencerVJones/Encryption-and-Decryption.git
 ```
 2. Move into the project:
 ```bash
@@ -283,8 +283,8 @@ Contributions are welcome! Feel free to submit issues or pull requests with bug 
 - Open a Pull Request
 
 ### Contributors
-<a href="https://github.com/makesspence/Encryption-and-Decryption/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=makesspence/Encryption-and-Decryption"/>
+<a href="https://github.com/SpencerVJones/Encryption-and-Decryption/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SpencerVJones/Encryption-and-Decryption"/>
 </a>
 
 
@@ -295,5 +295,5 @@ Distributed under the MIT License. See LICENSE for more information.
 ## Contact
 Spencer Jones
 📧 [jonesspencer99@icloud.com](mailto:jonesspencer99@icloud.com)  
-🔗 [GitHub Profile](https://github.com/makesspence)  
-🔗 [Project Repository](https://github.com/makesspence/Encryption-and-Decryption)
+🔗 [GitHub Profile](https://github.com/SpencerVJones)  
+🔗 [Project Repository](https://github.com/SpencerVJones/Encryption-and-Decryption)
