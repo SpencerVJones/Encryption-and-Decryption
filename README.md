@@ -31,7 +31,6 @@
 ![Swing](https://img.shields.io/badge/Swing-GUI-0ea5e9.svg?style=for-the-badge)
 ![Maven](https://img.shields.io/badge/Maven-Build-C71A36.svg?style=for-the-badge)
 ![JUnit](https://img.shields.io/badge/JUnit-Testing-25A162.svg?style=for-the-badge)
-![Checkstyle](https://img.shields.io/badge/Checkstyle-Linting-f59e0b.svg?style=for-the-badge)
 ![Encryption](https://img.shields.io/badge/Encryption-AES%20%7C%20DES%20%7C%20RSA%20%7C%20Caesar-1d4ed8.svg?style=for-the-badge)
 </div>
 
@@ -39,7 +38,6 @@
 ## 📑 Table of Contents
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
-- [Dataset](#dataset)
 - [Features](#features)
 - [Demo](#demo)
 - [Project Structure](#project-structure)
@@ -72,11 +70,6 @@ Users can:
 - Maven
 - JUnit 4
 - Checkstyle
-
-## Dataset
-This project does not use an external dataset.
-
-For Caesar and substitution-style operations, it works directly with printable ASCII characters and user-provided text.
 
 ## Features
 - 🔐 Encrypt/decrypt text using AES, DES, RSA, and Caesar
