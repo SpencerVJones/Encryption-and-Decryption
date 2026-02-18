@@ -1,0 +1,6 @@
+# Build outputs
+target/
+out/
+
+# OS/editor noise
+.DS_Store
