@@ -83,6 +83,7 @@ Users can:
 - 🔐 Encrypt/decrypt text using AES, DES, RSA, and Caesar
 - 🎛 Algorithm dropdown for fast switching
 - 🔑 One-click key generation
+- 🖥 Live web UI demo at `/` (interactive browser client)
 - 🌐 Tiny JSON API: `/api/key`, `/api/encrypt`, `/api/decrypt`
 - ⚙️ JDK-only backend (`HttpServer` + Java crypto APIs)
 - 🚀 Render deployment via `render.yaml`
@@ -122,8 +123,9 @@ encryption-and-decryption/
 ```
 
 ## API Endpoints
-- `GET /` - basic service metadata + endpoint list
+- `GET /` - interactive live demo UI
 - `GET /health` - health check
+- `GET /api/info` - API metadata + endpoint list
 - `POST /api/key` - generate algorithm-specific key material
 - `POST /api/encrypt` - encrypt plaintext
 - `POST /api/decrypt` - decrypt ciphertext
@@ -188,6 +190,7 @@ This repo includes a Render Blueprint file (`render.yaml`).
 4. Render builds and runs from `Dockerfile` (`runtime: docker` in `render.yaml`).
 5. Verify deployment at:
 ```text
+https://<your-render-service>.onrender.com/
 https://<your-render-service>.onrender.com/health
 ```
 
@@ -250,11 +253,14 @@ java -jar target/EncrptionProgram-1.0-SNAPSHOT.jar
 ```
 Then test:
 ```bash
+curl http://localhost:8080/api/info
 curl http://localhost:8080/health
 ```
+Open `http://localhost:8080/` in your browser for the live UI.
 
 ## Usage
 Use this project for:
+- Live browser demos hosted on Render
 - Desktop demonstrations of encryption workflows
 - Backend/API demos with deployable crypto endpoints
 - Portfolio projects showing full-stack delivery (local app + cloud API)
