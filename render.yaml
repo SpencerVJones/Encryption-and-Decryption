@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: encryption-api
+    env: java
+    plan: free
+    buildCommand: mvn clean package -DskipTests
+    startCommand: java -jar target/EncrptionProgram-1.0-SNAPSHOT.jar
+    healthCheckPath: /health
+    envVars:
+      - key: JAVA_VERSION
+        value: 21
