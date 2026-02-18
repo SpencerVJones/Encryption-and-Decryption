@@ -99,6 +99,7 @@ encryption-and-decryption/
 ├── README.md
 ├── LICENSE
 ├── pom.xml
+├── Dockerfile
 ├── render.yaml
 ├── checkstyle.xml
 ├── .github/
@@ -184,13 +185,16 @@ This repo includes a Render Blueprint file (`render.yaml`).
 1. Push this project to GitHub.
 2. In Render, choose `New +` -> `Blueprint`.
 3. Select the repo and deploy.
-4. Render builds with `mvn clean package -DskipTests` and starts with:
-```bash
-java -jar target/EncrptionProgram-1.0-SNAPSHOT.jar
-```
+4. Render builds and runs from `Dockerfile` (`runtime: docker` in `render.yaml`).
 5. Verify deployment at:
 ```text
 https://<your-render-service>.onrender.com/health
+```
+
+Local Docker run (optional):
+```bash
+docker build -t encryption-api .
+docker run --rm -p 8080:10000 -e PORT=10000 encryption-api
 ```
 
 Environment:
